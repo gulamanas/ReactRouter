@@ -1,14 +1,13 @@
 import React from 'react'
 
 function Expenses() {
+    console.log('Expenses')
     return (
-        <div>
-            <main style={{
-                padding: '1rem 0'
-            }}>
-                <h2>Expenses</h2>
-            </main>
-        </div>
+        <main style={{
+            padding: '1rem 0'
+        }}>
+            <h2>Expenses</h2>
+        </main>
     )
 }
 
